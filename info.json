@@ -1,12 +1,23 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "aop-moshine-compat",
+  "title": "Age of Production: Moshine Compatibility",
+  "description": "Assigns several recipes from Moshine to Age of Production buildings.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.77"
-  ]
+    "base >= 2.0.77",
+
+    "khaoslib >= 1.14.0",
+
+    "Age-of-Production >= 2.0.10",
+    "Moshine >= 1.1.4"
+  ],
+  "space_travel_required": true,
+  "package": {
+    "ignore": [
+      "**/*.xcf"
+    ]
+  }
 }
